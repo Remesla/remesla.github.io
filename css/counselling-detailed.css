@@ -1,0 +1,70 @@
+/*    Counselling detailed pages styles    */
+
+
+.main-content.counseling-detailed {
+	padding-top: 0;
+}
+
+.proforientation-title {
+	align-items: center;
+	text-transform: uppercase;
+	font: 600 30px 'Exo 2.0 Extra bold', sans-serif;
+	color: #19421e;
+}
+
+.proforientation-title__icon {
+	display: inline-flex;
+	width: 73px;
+	height: 73px;
+	margin-right: 35px;
+}
+
+.proforientation-tags {
+	margin-top: 40px;
+}
+
+.proforientation-tag {
+	font: 16px/24px 'Open Sans regular', sans-serif;
+	color: #5492cc;
+}
+
+.proforientation-block {
+	margin-top: 40px;
+}
+
+.proforientation-block__title {
+	font: 18px/24px 'Open Sans bold', sans-serif;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.proforientation-block__list {
+	list-style: none;
+	list-style-type: none;
+	
+}
+
+.proforientation-block__item {
+	margin-top: 15px;
+	font: 18px/24px 'Open Sans regular', sans-serif;
+	color: #000000;
+}
+
+.proforientation-block__item::before {
+	content: '-';
+	margin-right: 10px;
+}
+
+.proforientation-block__description {
+	margin-bottom: 15px;
+	font: italic 18px/24px 'Open Sans regular', sans-serif;
+
+}
+
+	/*    Proforientation page styles    */
+
+	.proforientation-title__icon {
+		background: url('../img/counselling-content-icon__glases.png') no-repeat center;
+	}
+
+
